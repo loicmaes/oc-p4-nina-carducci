@@ -32,37 +32,21 @@
 
 		<!-- TAB INFO -->
 		<title>Nina Carducci - Votre photographe !</title>
-
-		<!-- SNIPPETS -->
-		<script type="application/ld+json">
-			{
-				"@context": "https://schema.org",
-				"@type": "Person",
-				"name": "Nina Carducci",
-				"url": "https://loicmaes.github.io/oc-p4-nina-carducci",
-				"description": "Devenir photographe était pour moi une évidence. Comme si j’y étais prédestiné. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels, voilà ce qui me fait vibrer.",
-				"image": "https://loicmaes.github.io/oc-p4-nina-carducci/assets/images/nina.png",
-				"sameAs": [
-					"https://www.instagram.com/ninacarducci.photo/?hl=fr"
-				]
-			}
-		</script>
 	</head>
-	<body>
+	<body itemscope itemtype="https://schema.org/Person">
 		<div class="top-header">
-			<h2 class="name">Nina Carducci</h2>
+			<h2 class="name" itemprop="name">Nina Carducci</h2>
 			<div class="nav">
 				<ul>
 					<li><a href="#about">À propos</a></li>
 					<li><a href="#gallery">Galerie</a></li>
 					<li><a href="#services">Service</a></li>
 					<li><a href="#contact">Contact</a></li>
-					<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank" aria-label="Page Instagram"><img src="assets/images/instagram.png" alt=""></a></li>
+					<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" itemprop="url" target="_blank" aria-label="Page Instagram"><img src="assets/images/instagram.png" alt=""></a></li>
 				</ul>
 			</div>
 		</div>
 		<div id="header">
-
 			<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
 				<div class="carousel-indicators">
 					<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -92,11 +76,11 @@
 		</div>
 		<div id="about">
 			<div class="picture left">
-				<img src="./assets/images/nina.webp" alt="Portrait de nina carducci">
+				<img src="./assets/images/nina.webp" alt="Portrait de nina carducci" itemprop="image">
 			</div>
 			<div id="about-me">
 				<h3 class="about-me__title">A propos de moi</h3>
-				<h4 class="about-me__introduction">Devenir photographe était pour moi une évidence. Comme si j’y étais prédestiné. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels, voilà ce qui me fait vibrer.</h4>
+				<h4 class="about-me__introduction" itemprop="description">Devenir photographe était pour moi une évidence. Comme si j’y étais prédestiné. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels, voilà ce qui me fait vibrer.</h4>
 				<p>Nous passons notre vie à chercher le bonheur, et lorsque nous y touchons, nous n’avons qu’une envie : le figer au travers de photographies pour le savourer avec les personnes qui sont importantes à nos yeux, ou le partager au plus grand nombre.
 					C’est ce que je vous propose : saisir ces merveilleux moments au travers de mon regard, mon approche, ma technique. Rendre ces moments immortels, afin que vous puissiez y puiser de l’amour, du bonheur, de la tendresse et de lumière à chaque fois que vous poserez les yeux sur vos photos.</p>
 			</div>
